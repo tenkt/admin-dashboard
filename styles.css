@@ -126,7 +126,7 @@ input {
 .pix>img {
     width: 46px;
     height: 46px;
-    border-radius: 20px;
+    border-radius: 50%;
 }
 
 .nav {
@@ -160,13 +160,13 @@ input {
 .pix2>img {
     width: 64px;
     height: 64px;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .sidebar {
     grid-column: 1;
     grid-row: 1/5;
-    background-color: rgb(59, 193, 255);
+    background-color: rgb(21, 139, 194);
 
 }
 
@@ -187,4 +187,96 @@ input {
     height: 400px;
 }
 
+.sidebar {
+    grid-template-columns: 90px 90px;
+    grid-template-rows: 100px 260px 100px;
+    align-items: center;
+    justify-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+.navbar {
+    display: grid;
+    align-self: start;
+    justify-self: start;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 80px;
+    height: 80px;
+    gap: 16px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.navbar2 {
+    display: grid;
+    align-self: start;
+    justify-self: start;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 80px;
+    height: 80px;
+    gap: 16px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.navicon {
+    display: grid;
+    align-self: start;
+    justify-items: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 80px;
+    height: 80px;
+    gap: 16px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.navicon2 {
+    display: grid;
+    align-self: start;
+    justify-items: center;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 80px;
+    height: 80px;
+    gap: 16px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.dashboard {
+    font-size: 26px;
+    justify-self: start;
+    
+}
+
+.home {
+}
+
+ .dash {
+    background-image: url(svg/view-dashboard.svg);
+    height: 50px;
+    width: 50px;
+    grid-column: 1/2;
+ }
+
+ .dashboard {
+    grid-column: 2/3;
+ }
  
+ .house {
+    background-image: url(svg/home.svg);
+ }
+
+ .icon {
+    height: 30px;
+    width: 30px;
+ }
+
+ .profile {
+ }
